@@ -1,0 +1,4 @@
+This is required for number formatting in Assyrian / Syriac.
+
+https://unicode-org.github.io/icu/userguide/format_parse/numbers/rbnf.html
+https://www.unicode.org/reports/tr35/tr35-33/tr35-numbers.html#Contents
