@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<keyboard3 xmlns="https://schemas.unicode.org/cldr/45/keyboard3 conformsTo="45">
+
+    <!— speaking people in the homeland and in the diaspora —>
+
+    <locales>
+        <!-- source: https://github.com/unicode-org/cldr/blob/main/common/supplemental/likelySubtags.xml -->
+        <locale id="aii" /> <!-- assyrian neo-aramaic -->
+        <locale id="syc" /> <!-- classical syriac -->
+        <locale id="syr" /> <!-- syriac macrolanguage -->
+    </locales>
+
+    <version number="0.0.1">
+    <info name="Syriac Phonetic" author="Assyrian Digital Language Collaboration" indicator="syr" layout="QWERTY">
+
+    <keys>
+        <import base="cldr" path="46/keys-Zyyy-punctuation.xml" />
+        <import base="cldr" path="46/keys-Zyyy-currency.xml" />
+
+        <!— switch keys —>
+        <key id="base" layereId="base" />
+        <key id="numeric" layerId="numeric" />
+        <key id="shift" layerId="shift" />
+        <key id="symbol" layerId="symbol" />
+
+        <!— basic letters —>
+        <key id="alaph" output="ܐ"
+             longPressDefaultKeyId="ܐ"
+             longPressKeyIds="ܐ ܑ"
+             />
+        <key id="alaph-superscript" output="ܱ" />
+        <key id="beth" output="ܒ"
+             longPressDefaultKeyId="ܒ"
+             longPressKeyIds="ܒ ܒ݂ ܒ݁"
+             />
+        <key id="gamal" output="ܓ" />
+        <key id="gamal-garshuni" output="ܔ"
+             longPressDefaultKeyId="ܓ"
+             longPressKeyIds="ܓ ܓ݂ ܓ̰ ܓ݁ ܔ"
+             />
+        <key id="dalath" output="ܕ"
+             longPressDefaultKeyId="ܕ"
+             longPressKeyIds="ܕ ܕ݂ ܕ݁"
+             />
+        <key id="dalath-resh" output="ܖ" />
+        <key id="he" output="ܗ"
+             longPressDefaultKeyId="ܗ"
+             longPressKeyIds="ܗ ܗ̇"
+             />
+        <key id="waw" output="ܘ"
+             longPressDefaultKeyId="ܘ"
+             longPressKeyIds="ܘܼ ܘܿ"
+             />
+        <key id="zain" output="ܙ" />
+        <key id="heth" output="ܚ" />
+        <key id="teth" output="ܛ"
+             longPressDefaultKeyId="ܛ"
+             longPressKeyIds="ܛ ܜ"
+             />
+        <key id="teth-garshuni" output="ܜ" />
+        <key id="yudh" output="ܝ"
+             longPressDefaultKeyId="ܝ"
+             longPressKeyIds="ܝܼ ܝ"
+             />
+        <key id="yudh-he" output="ܞ" />
+        <key id="kaph" output="ܟ"
+             longPressDefaultKeyId="ܟ"
+             longPressKeyIds="ܟ ܟ̰ ܟ݂ ܟ݁"
+             />
+        <key id="lamadh" output="ܠ" />
+        <key id="mim" output="ܡ"
+             longPressDefaultKeyId="ܡ"
+             longPressKeyIds="ܡ ܡ̣ ܡ̇"
+             />
+        <key id="nun" output="ܢ"
+             longPressDefaultKeyId="ܢ"
+             longPressKeyIds="ܙ ܙ̰ ܙ̃"
+             />
+        <key id="semkath" output="ܣ"
+             longPressDefaultKeyId="ܣ"
+             longPressKeyIds="ܣ ܤ"
+             />
+        <key id="semkath-final" output="ܤ" />
+        <key id="e" output="ܥ" />
+        <key id="pe" output="ܦ"
+             longPressDefaultKeyId="ܦ"
+             longPressKeyIds="ܦ ܦ̮ ܦ݂ ܦ݁ ܧ"
+             />
+        <key id="reversed-pe" output="ܧ" />
+        <key id="sadhe" output="ܨ" />
+        <key id="qaph" output="ܩ" />
+        <key id="rish" output="ܪ" />
+        <key id="shin" output="ܫ"
+             longPressDefaultKeyId="ܫ"
+             longPressKeyIds="ܫ ܫ̰ ܫ̃"
+             />
+        <key id="taw" output="ܬ"
+             longPressDefaultKeyId="ܬ"
+             longPressKeyIds="ܬ݁ ܬ݂݀ ܬ݂ ܬ݀ ܬ݀݁ ܬ"
+             />
+
+        <!-- punctuations and signs -->
+        <key id="end-of-paragraph" output="܀" />
+        <key id="supralinear-full-stop" output="‫܁‬" />
+        <key id="sublinear-full-stop" output="‫܂‬" />
+        <key id="supralinear-colon" output="‫܃‬" />
+        <key id="sublinear-colon" output="‫܄‬" />
+        <key id="horizontal-colon" output="‫܅‬" />
+        <key id="colon-skewed-left" output="܆" />
+        <key id="colon-skewed-right" output="܇" />
+        <key id="supralinear-colon-skewed-left" outputi="※‬" />
+        <key id="sublinear-colon-skewed-right" output="‫܉‬" />
+        <key id="contraction" output="‫܊‬" />
+        <key id="harklean-obelus" output="‫܋‬" />
+        <key id="harklean-metobelus" output="‫܌‬" />
+        <key id="harklean-asteriscus" output="‫܍‬" />
+        <key id="west-syriac-cross" output="♰" />
+        <key id="east-syriac-cross" output ="♱" />
+        <key id="double-angle-right" output="»" />
+        <key id="double-angle-left" output="«" />
+
+        <!-- points/vowels -->
+        <key id="pthaha-above" output="ܰ" />
+        <key id="pthaha-below" output="ܱ" />
+        <key id="pthaha-dotted" output="ܲ" />
+        <key id="zqapha-above" output="ܳ" />
+        <key id="zqapha-below" output="ܴ" />
+        <key id="zqapha-dotted" output="ܵ" />
+        <key id="rbasa-above" output="ܶ" />
+        <key id="rbasa-below" output="ܷ" />
+        <key id="dotted-zlama-horizontal" output="ܸ" />
+        <key id="dotted-zlama-angular" output="ܹ" />
+        <key id="hbasa-above" output="ܺ" />
+        <key id="hbasa-below" output="ܻ" />
+        <key id="hbasa-esasa-dotted" output="ܼ" />
+        <key id="esasa-above" output="ܽ" />
+        <key id="esasa-below" output="ܾ" />
+        <key id="rwaha" output="ܿ" />
+
+        <!-- marks -->
+        <key id="feminine-dot" output="݀" />
+        <key id="qushshaya" output="݁" />
+        <key id="rukkakha" output="݂" />
+        <key id="two-vertical-dots-above" output="݃" />
+        <key id="two-vertical-dots-below" output="݄" />
+        <key id="three-dots-above" output="݅" />
+        <key id="three-dots-below" output="݆" />
+        <key id="oblique-line-above" output="݇" />
+        <key id="oblique-line-below" output="݈" />
+        <key id="music" output="݉" />
+        <key id="barrekh" output="݊" />
+
+        <!-- format control character -->
+        <key id="sam" output="\u{070F}" /> <!-- syriac abbreviation mark -->
+
+        <!-- other -->
+        <key id="combining-breve" output="̮" />
+        <hey id="combining-ring-above" output="̊" />
+        <key id="combining-ring-below" output="̥" />
+        <key id="combining-diaeresis" output="̈ "
+             longPressDefaultKeyId="combining-diaeresis"
+             longPressKeyIds="pthaha-above pthaha-below zqapha-above zqapha-below rbasa-above rbasa-below hbasa-above hbasa-below esasa-above esasa-below pthaha-dotted zqapha-dotted dotted-zlama-horizontal dotted-zlama-angular hbasa-esasa-dotted rwaha combining-diaeresis combining-diaeresis-below" />
+        <key id="combining-diaeresis-below" output="̤" />>
+        <key id="combining-dot-above" output="̇" />
+        <key id="combining-dot-below" output="̣" />
+        <key id="combining-tilde-below" output="̃" />
+        <key id="combining-macron" output="̄" />
+        <key id="combining-macron-below" output="̱" />
+        <key id="combining-circumflex-accent-below" output="̭" />
+
+        <!-- arabic punctuation -->
+        <key id="arabic-comma" output="،" />
+        <key id="arabic-semicolon" output="؛" />
+        <key id="arabic-question" output="؟" />
+        <key id="arabic-tatweel" output="ـ" />
+    </keys>
+
+    <!-- hardware keyboard -->
+    <layers formId="us">
+
+        <layer modifiers="none">
+            <row keys="sam 1 2 3 4 5 6 7 8 9 0 hyphen equal" />
+            <row keys="qaph waw e rish taw yudh teth combining-tilde-below oblique-line-above pe open-square close-square contraction" />
+            <row keys="alaph semkath dalath dalath-rish gamal gamal-garshuni kaph lamadh arabic-semicolon apos" />
+            <row keys="zain heth sadhe shin beth nun mim arabic-commna period slash " />
+            <row keys="space" />
+        </layer>
+
+        <!-- TODO: fix [unk] to actual KeyIds -->
+        <layer modifiers="shift">
+            <row keys="tilde bang at hash dollar percent caret amp asterisk close-paren open-paren underscore plus" />
+            <row keys="[unk] [unk] [unk] [unk] [unk] horizontal-colon combining-tilde-above [unk] combining-breve close-curly open-curly colon-skewed-left" />
+            <row keys="[unk] [unk] [unk] [unk] [unk] [unk] [unk] [unk] [unk] [unk] double-quote" />
+            <row keys="[unk] [unk] dotted-zlama-horizontal hbasa-esasa-dotted rwaha dotted-zlama-angular end-of-paragraph arabic-tatweel arabic-question" />
+            <row keys="space" />
+        </layer>
+
+        <layer modifiers="alt">
+            <row keys="gap ٠ ٩ ٨ ٧ ٦ ٥ ٤ ٣ ٢ ١ [unk] [unk] not-equal" />
+            <row keys="gap gap gap gap [unk] [unk] gap teth-garshuni gap gap reverse-pe gap [unk] colon-skewed-right" />
+            <row keys="alaph-superscript semkath-final gap gap gap [unk] three-dots-above gap harklean-asteriscus [unk]" />
+            <row keys="gap gap gap gap gap gap music greater-than less-than" />
+        </layer>
+
+        <layer modifiers="alt shift">
+            <row keys="gap yudh-he west-syriac-cross east-syriac-cross euro percent gap gap gap gap [unk] [unk] plus-minus" />
+            <row keys="gap gap gap gap gap gap gap gap gap gap gap [unk] gap" />
+            <row keys="gap gap gap gap gap [unk] [unk] [unk] [unk] combinging-circumflex-accent-below" />
+            <row keys="gap gap gap gap [unk] [unk] [unk] [unk] [unk] [unk]" />
+        </layer>
+    </layers>
+
+    <!-- touch keyboard -->
+    <layers formId="touch" minDeviceWidth="150">
+
+        <!-- optional attribute for min physical device size -->
+        <layer id="base">
+            <row keys="qaph waw e rish taw yudh pe" />
+            <row keys="alaph semkath dalath gamal he teth kaph lamadh" />
+            <row keys="zain heth sadhe shin beth nun mim" />
+            <row keys="numeric extra space combining-diaeresis enter" />
+        </layer>
+
+        <layer id="numeric">
+            <row keys="1 2 3 4 5 6 7 8 9 0" />
+            <row keys="hyphen slash colon arabic-semicolon open-paren close-paren dollar amp at double-quote" />
+            <row keys="symbol period arabic-comma arabic-question bang arabic-tatweel" />
+            <row keys="base extra space enter" />
+        </layer>
+
+        <!-- TODO: [unk] here is the hbasa-esasa-dotted and rwaha combination -->
+        <layer id="symbol">
+            <row keys="two-vertical-dots-above two-vertical-dots-below three-dots-above three-dots-below oblique-line-above oblique-line-below percent asterisk plus equal" />
+            <row keys="underscore sam combining-circumflex-accent-below tilde double-angle-left double-angle right yudh-he west-syriac-cross east-syriac-cross bullet" />
+            <row keys="music contraction [unk] end-of-paragraph colon-skewed-left" />
+            <row keys="base extra space enter" />
+        </layer>
+    </layers>
+
+</keyboard3>
